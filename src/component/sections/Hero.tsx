@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <div className="bg-white dark:bg-gray-900 overflow-hidden">
+    <div className="bg-gradient-to-r from-gray-900 to-gray-800 overflow-hidden">
       <div className="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
           <span className="px-2 inline-flex text-2xl text-gray-900 font font-medium rounded-md bg-green-300">
@@ -17,7 +17,6 @@ export default function Hero() {
           </div>
           <div>
             <div className="mt-10">
-            
               <a
                 href="/discord"
                 className="inline-block text-center bg-gradient-to-r from-green-400 to-blue-500 rounded-md py-3 px-8 font-medium text-white hover:from-blue-400 hover:to-green-400"
@@ -30,6 +29,13 @@ export default function Hero() {
               >
                 Proyectos
               </a>
+              <div className="absolute xl:w-1/2 lg:w-1/2 xl:top-24 lg:top-24 inset-y-0 right-12">
+                <img
+                  className="hidden lg:block"
+                  src="https://i.imgur.com/Acys344.png"
+                  alt="background hero"
+                />
+              </div>
             </div>
           </div>
         </div>

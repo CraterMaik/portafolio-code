@@ -12,7 +12,7 @@ const navigation = [
 
 export default function NavBar() {
   return (
-    <Disclosure as="nav" className="z-40 bg-gray-900">
+    <Disclosure as="nav" className="z-40 bg-gradient-to-r from-gray-900 to-gray-800">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
