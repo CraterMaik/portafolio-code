@@ -7,10 +7,10 @@ export default function Hero() {
             Hola
           </span>
           <div className="sm:max-w-lg">
-            <h1 className="text-4xl font font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-6xl">
+            <h1 className="text-4xl font font-extrabold tracking-tight text-white sm:text-6xl">
               Soy CraterMaik
             </h1>
-            <p className="mt-4 text-xl text-gray-500 dark:text-gray-300">
+            <p className="mt-4 text-xl text-gray-300">
               Freelance Web, Founder of <a className="text-pink-400 hover:text-pink-500" href="https://portalmybot.com" target="_blank" rel="noopener noreferrer">portalmybot.com</a>, Full Stack Developer.
             </p>
             
