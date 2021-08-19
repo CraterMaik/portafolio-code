@@ -1,13 +1,15 @@
 import { Disclosure } from '@headlessui/react'
-import { BeakerIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
+import { MenuIcon, XIcon } from '@heroicons/react/outline'
+import DiscordIcon from 'simple-icons/icons/discord';
+import GithubIcon from 'simple-icons/icons/github';
 import { classNames } from '../utils/classNames';
 
 const navigation = [
-  { name: 'Inicio', href: '/', current: true },
-  { name: 'Proyectos', href: '/proyectos', current: false },
-  { name: 'Habilidades', href: '/habilidades', current: false },
-  { name: 'Testimonios', href: '/testimonios', current: false },
-  { name: 'Contacto', href: '/contacto', current: false },
+  { name: 'Home', href: '/', current: true },
+  { name: 'Projects', href: '/project', current: false },
+  { name: 'Laboratory', href: '/laboratory', current: false },
+  { name: 'Skills', href: '/skills', current: false },
+  { name: 'Contact', href: '/contact', current: false },
 ];
 
 export default function NavBar() {
@@ -62,10 +64,14 @@ export default function NavBar() {
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                <button className="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
-                  <span className="sr-only">View notifications</span>
-                  <BeakerIcon className="h-6 w-6" aria-hidden="true" />
+                <button className="p-1 rounded-full focus:outline-none transition delay-100">
+                  <svg role="img" width="28" className="fill-current text-gray-300 hover:text-pink-300 transition delay-100" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>{DiscordIcon.title}</title><path d={DiscordIcon.path}/></svg>
                 </button>
+                <button className="p-1 rounded-full focus:outline-none transition delay-100">
+                  <svg role="img" width="28" className="fill-current text-gray-300 hover:text-pink-300 transition delay-100" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>{GithubIcon.title}</title><path d={GithubIcon.path}/></svg>
+                </button>
+               
+                
               </div>
             </div>
           </div>

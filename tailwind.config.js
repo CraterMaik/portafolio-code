@@ -3,7 +3,9 @@ module.exports = {
   // https://tailwindcss.com/docs/just-in-time-mode
   // mode: "jit",
   theme: {
-    extend: {},
+    extend: {
+      fill: ['hover', 'focus'],
+    },
     zIndex: {
       '0': 0,
       '10': 10,
