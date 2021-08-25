@@ -1,3 +1,10 @@
+import DiscordIcon from 'simple-icons/icons/discord';
+import GithubIcon from 'simple-icons/icons/github';
+import InstagramIcon from 'simple-icons/icons/instagram';
+import TwitchIcon from 'simple-icons/icons/twitch';
+import TwitterIcon from 'simple-icons/icons/twitter';
+import PaypalIcon from 'simple-icons/icons/paypal';
+
 export default function Hero() {
   return (
     <div className="bg-gradient-to-r from-gray-900 to-gray-800 overflow-hidden">
@@ -13,7 +20,38 @@ export default function Hero() {
             <p className="mt-4 text-xl text-gray-300">
               Freelance Web, Founder of <a className="text-pink-400 hover:text-pink-500" href="https://portalmybot.com" target="_blank" rel="noopener noreferrer">portalmybot.com</a>, Full Stack Developer.
             </p>
-            
+            <div className="mt-5">
+                <button className="p-1 rounded-full focus:outline-none transition delay-100">
+                  <a href="/" target="_blank" rel="noopener noreferrer">
+                    <svg role="img" width="28" className="fill-current text-white hover:text-pink-500 transition delay-100" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>{GithubIcon.title}</title><path d={GithubIcon.path}/></svg>
+                  </a>
+                </button>
+                <button className="p-1 rounded-full focus:outline-none transition delay-100">
+                  <a href="/" target="_blank" rel="noopener noreferrer">
+                    <svg role="img" width="28" className="fill-current text-white hover:text-pink-500 transition delay-100" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>{TwitterIcon.title}</title><path d={TwitterIcon.path}/></svg>
+                  </a>
+                </button>
+                <button className="p-1 rounded-full focus:outline-none transition delay-100">
+                  <a href="/" target="_blank" rel="noopener noreferrer">
+                    <svg role="img" width="28" className="fill-current text-white hover:text-pink-500 transition delay-100" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>{TwitchIcon.title}</title><path d={TwitchIcon.path}/></svg>
+                  </a>
+                </button>
+                <button className="p-1 rounded-full focus:outline-none transition delay-100">
+                  <a href="/" target="_blank" rel="noopener noreferrer">
+                    <svg role="img" width="28" className="fill-current text-white hover:text-pink-500 transition delay-100" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>{DiscordIcon.title}</title><path d={DiscordIcon.path}/></svg>
+                  </a>
+                </button>
+                <button className="p-1 rounded-full focus:outline-none transition delay-100">
+                  <a href="/" target="_blank" rel="noopener noreferrer">
+                    <svg role="img" width="28" className="fill-current text-white hover:text-pink-500 transition delay-100" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>{InstagramIcon.title}</title><path d={InstagramIcon.path}/></svg>
+                  </a>
+                </button>
+                <button className="p-1 rounded-full focus:outline-none transition delay-100">
+                  <a href="/" target="_blank" rel="noopener noreferrer">
+                    <svg role="img" width="28" className="fill-current text-white hover:text-pink-500 transition delay-100" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>{PaypalIcon.title}</title><path d={PaypalIcon.path}/></svg>
+                  </a>
+                </button>
+            </div>
           </div>
           <div>
             <div className="mt-10">

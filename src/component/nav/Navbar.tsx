@@ -1,7 +1,6 @@
 import { Disclosure } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
-import DiscordIcon from 'simple-icons/icons/discord';
-import GithubIcon from 'simple-icons/icons/github';
+
 import { classNames } from '../utils/classNames';
 
 const navigation = [
@@ -63,16 +62,7 @@ export default function NavBar() {
                   </div>
                 </div>
               </div>
-              <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                <button className="p-1 rounded-full focus:outline-none transition delay-100">
-                  <svg role="img" width="28" className="fill-current text-gray-300 hover:text-pink-300 transition delay-100" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>{DiscordIcon.title}</title><path d={DiscordIcon.path}/></svg>
-                </button>
-                <button className="p-1 rounded-full focus:outline-none transition delay-100">
-                  <svg role="img" width="28" className="fill-current text-gray-300 hover:text-pink-300 transition delay-100" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>{GithubIcon.title}</title><path d={GithubIcon.path}/></svg>
-                </button>
-               
-                
-              </div>
+              
             </div>
           </div>
 
