@@ -39,11 +39,11 @@ export default function ProjectSections() {
       </div>
       <div className="p-4 lg:w-1/2">
         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://i.imgur.com/aJHxcFF.png" />
+          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://i.imgur.com/FAxHhw2.png" />
           <div className="flex-grow sm:pl-8">
             <h2 className="title-font font-medium text-lg text-white">MyBOT Codes</h2>
-            <h3 className="text-gray-500 mb-3">Discord Codes</h3>
-            <p className="mb-4">Sample code list for Discord bot commands.</p>
+            <h3 className="text-gray-500 mb-3">Discord Bot Codes</h3>
+            <p className="mb-4">List of public Discord Bots in Spanish, discover new Bots developed by members of the MyBOT Team community.</p>
             <span className="inline-flex">
               <a href="https://portalmybot.com/codes" target="_blank" rel="noopener noreferrer" className="mr-2">
                 <svg role="img" width="28" className="fill-current text-white hover:text-blue-500 transition delay-100" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>{AtandtIcon.title}</title><path d={AtandtIcon.path}/></svg>

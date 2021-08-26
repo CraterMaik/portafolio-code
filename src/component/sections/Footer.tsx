@@ -4,7 +4,7 @@ import InstagramIcon from 'simple-icons/icons/instagram';
 
 export default function FooterSections() {
   return (
-    <footer className="text-gray-400 bg-gray-900 body-font">
+    <footer className="text-gray-400 bg-gray-900 body-font pt-8">
       <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
         <a href="/" className="flex title-font font-medium items-center md:justify-start justify-center text-white">
           <span className="ml-3 text-xl">CraterMaik</span>
@@ -14,15 +14,15 @@ export default function FooterSections() {
         </p>
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <a href="https://github.com/cratermaik/" target="_blank" rel="noopener noreferrer" className="mr-2">
-            <svg role="img" width="28" className="fill-current text-white hover:text-blue-200 transition delay-100" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>{GithubIcon.title}</title><path d={GithubIcon.path}/></svg>
+            <svg role="img" width="28" className="fill-current text-gray-600 text-white hover:text-gray-200 transition delay-100" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>{GithubIcon.title}</title><path d={GithubIcon.path}/></svg>
           </a>
 
           <a href="https://twitter.com/cratermaik" target="_blank" rel="noopener noreferrer" className="mr-2">
-            <svg role="img" width="28" className="fill-current text-white hover:text-blue-200 transition delay-100" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>{TwitterIcon.title}</title><path d={TwitterIcon.path}/></svg>
+            <svg role="img" width="28" className="fill-current text-gray-600 text-white hover:text-gray-200 transition delay-100" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>{TwitterIcon.title}</title><path d={TwitterIcon.path}/></svg>
           </a>
 
           <a href="https://www.instagram.com/crater.maik/" target="_blank" rel="noopener noreferrer">
-            <svg role="img" width="28" className="fill-current text-white hover:text-pink-500 transition delay-100" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>{InstagramIcon.title}</title><path d={InstagramIcon.path}/></svg>
+            <svg role="img" width="28" className="fill-current text-gray-600 hover:text-gray-200 transition delay-100" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>{InstagramIcon.title}</title><path d={InstagramIcon.path}/></svg>
           </a>
         </span>
       </div>
