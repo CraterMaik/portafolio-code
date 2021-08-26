@@ -15,7 +15,7 @@ import AtandtIcon from 'simple-icons/icons/atandt';
 
 export default function ProjectSections() {
   return (
-   <section className="text-white bg-gray-900">
+   <section className="text-white bg-gray-900 pt-4">
     
     <div className="flex flex-wrap mx-12">
       <div className="p-4 lg:w-1/2">
