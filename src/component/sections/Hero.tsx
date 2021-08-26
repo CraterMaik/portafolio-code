@@ -22,32 +22,32 @@ export default function Hero() {
             </p>
             <div className="mt-5">
                 <button className="p-1 rounded-full focus:outline-none transition delay-100">
-                  <a href="/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/cratermaik/" target="_blank" rel="noopener noreferrer">
                     <svg role="img" width="28" className="fill-current text-white hover:text-pink-500 transition delay-100" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>{GithubIcon.title}</title><path d={GithubIcon.path}/></svg>
                   </a>
                 </button>
                 <button className="p-1 rounded-full focus:outline-none transition delay-100">
-                  <a href="/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://twitter.com/cratermaik" target="_blank" rel="noopener noreferrer">
                     <svg role="img" width="28" className="fill-current text-white hover:text-pink-500 transition delay-100" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>{TwitterIcon.title}</title><path d={TwitterIcon.path}/></svg>
                   </a>
                 </button>
                 <button className="p-1 rounded-full focus:outline-none transition delay-100">
-                  <a href="/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.twitch.tv/cratermaik" target="_blank" rel="noopener noreferrer">
                     <svg role="img" width="28" className="fill-current text-white hover:text-pink-500 transition delay-100" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>{TwitchIcon.title}</title><path d={TwitchIcon.path}/></svg>
                   </a>
                 </button>
                 <button className="p-1 rounded-full focus:outline-none transition delay-100">
-                  <a href="/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://discord.com/channels/@me/253727823972401153" target="_blank" rel="noopener noreferrer">
                     <svg role="img" width="28" className="fill-current text-white hover:text-pink-500 transition delay-100" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>{DiscordIcon.title}</title><path d={DiscordIcon.path}/></svg>
                   </a>
                 </button>
                 <button className="p-1 rounded-full focus:outline-none transition delay-100">
-                  <a href="/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.instagram.com/crater.maik/" target="_blank" rel="noopener noreferrer">
                     <svg role="img" width="28" className="fill-current text-white hover:text-pink-500 transition delay-100" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>{InstagramIcon.title}</title><path d={InstagramIcon.path}/></svg>
                   </a>
                 </button>
                 <button className="p-1 rounded-full focus:outline-none transition delay-100">
-                  <a href="/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.paypal.com/paypalme/TMyBOT" target="_blank" rel="noopener noreferrer">
                     <svg role="img" width="28" className="fill-current text-white hover:text-pink-500 transition delay-100" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>{PaypalIcon.title}</title><path d={PaypalIcon.path}/></svg>
                   </a>
                 </button>
