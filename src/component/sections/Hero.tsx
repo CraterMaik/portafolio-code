@@ -67,6 +67,7 @@ export default function Hero() {
               >
                 Project
               </a>
+              {/* absolute xl:w-1/2 lg:w-1/2 xl:top-24 lg:top-24 inset-y-0 right-12 */}
               <div className="absolute xl:w-1/2 lg:w-1/2 xl:top-24 lg:top-24 inset-y-0 right-12">
                 <img
                   className="hidden lg:block"
