@@ -189,6 +189,69 @@ export default function ProjectSections() {
               </div>
            </div>
          </div>
+         <div className="p-4 lg:w-1/2 md:w-full">
+           <div className="flex border-2 rounded-lg border-gray-800 p-8 sm:flex-row flex-col">
+              <div className="sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center flex-shrink-0">
+               <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://i.imgur.com/2MRI90w.png" />
+              </div>
+              <div className="flex-grow">
+                <h2 className="text-white text-lg title-font font-medium mb-3">DIIMG</h2>
+                <p className="leading-relaxed text-base">Host your images without having to register.</p>
+                <div className="flex space-x-2 py-2 mb-2">
+                  <div className="flex items-center space-x-1 text-sm font-medium px-2 bg-green-500 text-white rounded-full">
+                    <div className="bg-white w-1 h-1 rounded-full"></div>
+                    <div>NODEJS</div>
+                  </div>
+                  <div className="flex items-center space-x-1 text-sm font-medium px-2 bg-green-500 text-white rounded-full">
+                    <div className="bg-white w-1 h-1 rounded-full"></div>
+                    <div>EXPRESS</div>
+                  </div>
+                  <div className="flex items-center space-x-1 text-sm font-medium px-2 bg-green-500 text-white rounded-full">
+                    <div className="bg-white w-1 h-1 rounded-full"></div>
+                    <div>JQUERY</div>
+                  </div>
+                </div>
+                <a
+                  href="https://diimg.glitch.me/" target="_blank" rel="noopener noreferrer"
+                  className="inline-block text-center bg-gradient-to-r from-pink-400 to-blue-500 rounded-md py-2 px-4 font-medium text-white hover:from-blue-400 hover:to-pink-400"
+                >
+                    View Project
+                </a>
+              </div>
+           </div>
+         </div>
+         <div className="p-4 lg:w-1/2 md:w-full">
+           <div className="flex border-2 rounded-lg border-gray-800 p-8 sm:flex-row flex-col">
+              <div className="sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center flex-shrink-0">
+               <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://i.imgur.com/dgntbT3.png" />
+              </div>
+              <div className="flex-grow">
+                <h2 className="text-white text-lg title-font font-medium mb-3">IMAGIX</h2>
+                <p className="leading-relaxed text-base">Imagix is ​​a framework for jimp to manipulate images in a simpler and cleaner way.</p>
+                <div className="flex space-x-2 py-2 mb-2">
+                  <div className="flex items-center space-x-1 text-sm font-medium px-2 bg-green-500 text-white rounded-full">
+                    <div className="bg-white w-1 h-1 rounded-full"></div>
+                    <div>NODEJS</div>
+                  </div>
+                  <div className="flex items-center space-x-1 text-sm font-medium px-2 bg-green-500 text-white rounded-full">
+                    <div className="bg-white w-1 h-1 rounded-full"></div>
+                    <div>JIMP</div>
+                  </div>
+                  <div className="flex items-center space-x-1 text-sm font-medium px-2 bg-green-500 text-white rounded-full">
+                    <div className="bg-white w-1 h-1 rounded-full"></div>
+                    <div>NPM</div>
+                  </div>
+                  
+                </div>
+                <a
+                  href="https://www.npmjs.com/package/imagix" target="_blank" rel="noopener noreferrer"
+                  className="inline-block text-center bg-gradient-to-r from-pink-400 to-blue-500 rounded-md py-2 px-4 font-medium text-white hover:from-blue-400 hover:to-pink-400"
+                >
+                    View Project
+                </a>
+              </div>
+           </div>
+         </div>
 
        </div>
      </div>
