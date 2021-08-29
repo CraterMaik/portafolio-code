@@ -18,15 +18,16 @@ export default function ProjectSections() {
             <h1 className="title-font font-medium text-3xl mb-2 text-white">Portal MyBOT</h1>
             <div className="leading-relaxed mb-1">Portal MyBOT It is a platform with different guides and tools in Spanish, aimed at developing bots and content for Discord communities.</div>
             <div className="flex space-x-2 py-2 mb-4">
+
               <div className="flex items-center space-x-1 text-sm font-semibold px-2 bg-green-500 text-white rounded-full">
                 <div className="bg-white w-1 h-1 rounded-full"></div>
                 <div>PHP</div>
               </div>
-              <div className="flex items-center space-x-1 text-sm font-semibold px-2 bg-green-500 text-white rounded-full">
+              <div className="hidden md:flex items-center space-x-1 text-sm font-semibold px-2 bg-green-500 text-white rounded-full">
                 <div className="bg-white w-1 h-1 rounded-full"></div>
                 <div>NGINX</div>
               </div>
-              <div className="flex items-center space-x-1 text-sm font-semibold px-2 bg-green-500 text-white rounded-full">
+              <div className="hidden md:flex items-center space-x-1 text-sm font-semibold px-2 bg-green-500 text-white rounded-full">
                 <div className="bg-white w-1 h-1 rounded-full"></div>
                 <div>MYSQL</div>
               </div>
@@ -38,7 +39,7 @@ export default function ProjectSections() {
                 <div className="bg-white w-1 h-1 rounded-full"></div>
                 <div>HTML</div>
               </div>
-              <div className="flex items-center space-x-1 text-sm font-semibold px-2 bg-green-500 text-white rounded-full">
+              <div className="flex items-center space-x-1 text-sm  font-semibold px-2 bg-green-500 text-white rounded-full">
                 <div className="bg-white w-1 h-1 rounded-full"></div>
                 <div>CSS</div>
               </div>

@@ -113,7 +113,7 @@ export default function ProjectSections() {
                     <div className="bg-white w-1 h-1 rounded-full"></div>
                     <div>JQuery</div>
                   </div>
-                  <div className="flex items-center space-x-1 text-sm font-medium px-2 bg-green-500 text-white rounded-full">
+                  <div className="hidden md:flex items-center space-x-1 text-sm font-medium px-2 bg-green-500 text-white rounded-full">
                     <div className="bg-white w-1 h-1 rounded-full"></div>
                     <div>Materialize CSS</div>
                   </div>
