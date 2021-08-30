@@ -9,7 +9,7 @@ export default function ProjectSections() {
      <div className="container px-5 py-24 mx-auto">
       <div className="flex flex-col text-center w-full mb-2">
         <h1 className="text-2xl font-medium title-font mb-2 text-gray tracking-widest">DEVELOPED PROJECTS</h1>
-       {/*  <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.</p> */}
+       
       </div>
      </div>
      <div className="container px-5 pb-12 mx-auto flex flex-wrap">

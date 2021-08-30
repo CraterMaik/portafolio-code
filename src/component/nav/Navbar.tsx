@@ -6,8 +6,8 @@ import { classNames } from '../utils/classNames';
 const navigation = [
   { name: 'Home', href: '/', current: true },
   { name: 'Projects', href: '/project', current: false },
-  { name: 'Laboratory', href: '/laboratory', current: false },
   { name: 'Skills', href: '/skills', current: false },
+  { name: 'Laboratory', href: '/laboratory', current: false },
   { name: 'Contact', href: '/contact', current: false },
 ];
 
