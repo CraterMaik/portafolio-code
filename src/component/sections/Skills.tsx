@@ -16,6 +16,12 @@ import GithubactionsIcon from 'simple-icons/icons/githubactions';
 import GitIcon from 'simple-icons/icons/git';
 import MysqlIcon from 'simple-icons/icons/mysql';
 import MongoIcon from 'simple-icons/icons/mongodb';
+import GoogleAdsenseIcon from 'simple-icons/icons/googleadsense';
+import BraveIcon from 'simple-icons/icons/brave';
+import TailwindIcon from 'simple-icons/icons/tailwindcss';
+import MaterialIcon from 'simple-icons/icons/materialui';
+import TypeScriptIcon from 'simple-icons/icons/typescript';
+import NpmIcon from 'simple-icons/icons/npm';
 
 export default function SkillsSections() {
   return (
@@ -37,7 +43,7 @@ export default function SkillsSections() {
         </div>
         
          <div className="flex flex-col md:w-1/2 md:pl-12">
-          <h2 className="text-xs text-indigo-400 tracking-widest font-medium title-font mb-4 text-center">PROGRAMING LANGUAGES</h2>
+          <h2 className="text-xs text-indigo-400 tracking-widest font-medium title-font mt-4 mb-4 text-center">PROGRAMING LANGUAGES</h2>
           <div className="flex flex-wrap -m-4 text-center">
             
             <div className="p-4 sm:w-1/4 w-1/2">
@@ -147,7 +153,7 @@ export default function SkillsSections() {
             </div>
             <div className="p-4 sm:w-1/4 w-1/2">
               <svg role="img" width="27" 
-               className="fill-current text-white hover:text-blue-500 transition delay-100 inline-block" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+               className="fill-current text-white transition delay-100 inline-block" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <title>{GithubIcon.title}</title><path d={GithubIcon.path}/>
               </svg>
               <p className="leading-relaxed text-xs">GITHUB</p>
@@ -166,11 +172,52 @@ export default function SkillsSections() {
               </svg>
               <p className="leading-relaxed text-xs">MONGODB</p>
             </div>
-            
-            
+            <div className="p-4 sm:w-1/4 w-1/2">
+              <svg role="img" width="27" 
+               className="fill-current text-white hover:text-blue-500 transition delay-100 inline-block" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <title>{GoogleAdsenseIcon.title}</title><path fill={'#'+GoogleAdsenseIcon.hex} d={GoogleAdsenseIcon.path}/>
+              </svg>
+              <p className="leading-relaxed text-xs">GOOGLE ADSENSE</p>
+            </div>
+            <div className="p-4 sm:w-1/4 w-1/2">
+              <svg role="img" width="27" 
+               className="fill-current text-white hover:text-blue-500 transition delay-100 inline-block" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <title>{BraveIcon.title}</title><path fill={'#'+BraveIcon.hex} d={BraveIcon.path}/>
+              </svg>
+              <p className="leading-relaxed text-xs">BRAVE</p>
+            </div>
+            <div className="p-4 sm:w-1/4 w-1/2">
+              <svg role="img" width="27" 
+               className="fill-current text-white hover:text-blue-500 transition delay-100 inline-block" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <title>{TailwindIcon.title}</title><path fill={'#'+TailwindIcon.hex} d={TailwindIcon.path}/>
+              </svg>
+              <p className="leading-relaxed text-xs">TAILWINDCSS</p>
+            </div>
+            <div className="p-4 sm:w-1/4 w-1/2">
+              <svg role="img" width="27" 
+               className="fill-current text-white hover:text-blue-500 transition delay-100 inline-block" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <title>{MaterialIcon.title}</title><path fill={'#'+MaterialIcon.hex} d={MaterialIcon.path}/>
+              </svg>
+              <p className="leading-relaxed text-xs">MATERIAL UI</p>
+            </div>
+            <div className="p-4 sm:w-1/4 w-1/2">
+              <svg role="img" width="27" 
+               className="fill-current text-white hover:text-blue-500 transition delay-100 inline-block" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <title>{TypeScriptIcon.title}</title><path fill={'#'+TypeScriptIcon.hex} d={TypeScriptIcon.path}/>
+              </svg>
+              <p className="leading-relaxed text-xs">TYPESCRIPT</p>
+            </div>
+            <div className="p-4 sm:w-1/4 w-1/2">
+              <svg role="img" width="27" 
+               className="fill-current text-white hover:text-blue-500 transition delay-100 inline-block" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <title>{NpmIcon.title}</title><path fill={'#'+NpmIcon.hex} d={NpmIcon.path}/>
+              </svg>
+              <p className="leading-relaxed text-xs">NPM</p>
+            </div>
             
           </div>
           
+
         </div>
       </div>
 
