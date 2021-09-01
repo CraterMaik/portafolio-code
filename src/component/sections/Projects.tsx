@@ -252,7 +252,14 @@ export default function ProjectSections() {
               </div>
            </div>
          </div>
-
+         <div className="flex mx-auto my-4">
+            <a
+                href="/projects"
+                className="inline-block text-center ml-2 bg-pink-500 rounded-md py-3 px-8 font-medium text-white hover:bg-pink-700"
+              >
+                More projects
+              </a>
+         </div>
        </div>
      </div>
    </section>

@@ -35,9 +35,13 @@ export default function SkillsSections() {
         <div className="md:w-1/2 md:pr-12 md:py-8 md:border-r md:border-b-0 md:mb-0 mb-10 pb-10 border-b border-gray-800">
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-white">What I do?</h1>
           <p className="leading-relaxed text-base">
-            The scope of my work is largely coding designs, mobile applications, single page (MVC), animation, css/js and other working base in html/css/js.
-            <br/>
-            I also build PHP/MySQL applications mainly on open source systems like wordpress. PSD to HTML, psd to wordpress
+            I am a freelance computer programmer, I have been in the field for more than 5 years and the scope of my work is mainly the coding of web applications, database analysis and desktop applications for small businesses.
+          </p>
+          <p className="leading-relaxed text-base mt-3">
+            I also have knowledge in SEO for websites, editing and creating multimedia content.
+          </p>
+          <p className="leading-relaxed text-base mt-3">
+            Creator and Director of the MyBOT Team Community on <a className="text-pink-500 hover:text-pink-700" href="https://portalmybot.com/discord" target="_blank" rel="noopener noreferrer">Discord</a>, a community where you can learn and share new things about Discord bot development.
           </p>
          
         </div>
@@ -106,7 +110,7 @@ export default function SkillsSections() {
             
           </div>
 
-          <h2 className="text-xs text-indigo-400 tracking-widest font-medium title-font mt-8 mb-4 text-center">TECHNOLOGY STACK</h2>
+          <h2 className="text-xs text-indigo-400 tracking-widest font-medium title-font mt-12 mb-4 text-center">TECHNOLOGY STACK</h2>
           <div className="flex flex-wrap -m-4 text-center">
             
             <div className="p-4 sm:w-1/4 w-1/2">
