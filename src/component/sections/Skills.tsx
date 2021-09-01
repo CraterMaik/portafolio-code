@@ -193,6 +193,7 @@ export default function SkillsSections() {
               </svg>
               <p className="leading-relaxed text-xs">TAILWINDCSS</p>
             </div>
+            
             <div className="p-4 sm:w-1/4 w-1/2">
               <svg role="img" width="27" 
                className="fill-current text-white hover:text-blue-500 transition delay-100 inline-block" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -200,6 +201,7 @@ export default function SkillsSections() {
               </svg>
               <p className="leading-relaxed text-xs">MATERIAL UI</p>
             </div>
+
             <div className="p-4 sm:w-1/4 w-1/2">
               <svg role="img" width="27" 
                className="fill-current text-white hover:text-blue-500 transition delay-100 inline-block" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -207,7 +209,7 @@ export default function SkillsSections() {
               </svg>
               <p className="leading-relaxed text-xs">TYPESCRIPT</p>
             </div>
-            
+
             <div className="p-4 sm:w-1/4 w-1/2">
               <svg role="img" width="27" 
                className="fill-current text-white hover:text-blue-500 transition delay-100 inline-block" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
