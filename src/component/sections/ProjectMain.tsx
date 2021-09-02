@@ -8,7 +8,7 @@ export default function ProjectSections() {
    <section className="text-gray-400 bg-gray-900 body-font">
      <div className="container px-5 py-24 mx-auto">
       <div className="flex flex-col text-center w-full mb-2">
-        <h1 className="text-2xl font-medium title-font mb-2 text-gray tracking-widest">DEVELOPED PROJECTS</h1>
+        <h2 className="text-2xl font-medium title-font mb-2 text-gray tracking-widest">DEVELOPED PROJECTS</h2>
        
       </div>
      </div>

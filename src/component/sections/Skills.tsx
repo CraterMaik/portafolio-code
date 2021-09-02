@@ -29,7 +29,7 @@ export default function SkillsSections() {
 
       <div className="container flex flex-wrap px-5 pt-10 mx-auto items-center">
         <div className="flex flex-col text-center w-full mb-12">
-          <h1 className="text-2xl font-medium title-font mb-2 text-gray tracking-widest">SKILLS & EXPERIENCE</h1>
+          <h2 className="text-2xl font-medium title-font mb-2 text-gray tracking-widest">SKILLS & EXPERIENCE</h2>
         </div>
 
         <div className="md:w-1/2 md:pr-12 md:py-8 md:border-r md:border-b-0 md:mb-0 mb-10 pb-10 border-b border-gray-800">
