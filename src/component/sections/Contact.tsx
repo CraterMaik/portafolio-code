@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import axios from "axios";
 require('dotenv').config();
 
@@ -11,6 +12,7 @@ const config = {
 const configValue : string = (process.env.REACT_APP_WHS as string);
 
 export default function ContactSections() {
+  const [data, setData] = useState();
 
   async function sendEmail() {
 
@@ -33,7 +35,8 @@ export default function ContactSections() {
             <p className="lg:w-2/3  leading-relaxed text-base mb-6">Let's develop cool projects together!</p>
             <div className="relative mb-4">
               <label className="leading-7 text-sm text-gray-400">Name</label>
-              <input type="text" id="name" name="name" className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"></input>
+              
+              <input type="text" id="name" name="name" onChange={(event): void => setData(event.target.value)} className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"></input>
             </div>
             <div className="relative mb-4">
               <label className="leading-7 text-sm text-gray-400">Email</label>
