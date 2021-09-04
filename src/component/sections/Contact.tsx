@@ -36,7 +36,7 @@ export default function ContactSections() {
             <div className="relative mb-4">
               <label className="leading-7 text-sm text-gray-400">Name</label>
               
-              <input type="text" id="name" name="name" onChange={(event): void => setData(event.target.value)} className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"></input>
+              <input type="text" id="name" name="name" className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"></input>
             </div>
             <div className="relative mb-4">
               <label className="leading-7 text-sm text-gray-400">Email</label>
