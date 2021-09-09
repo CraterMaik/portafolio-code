@@ -9,7 +9,7 @@ export default function FooterSections() {
         <a href="/" className="flex title-font font-medium items-center md:justify-start justify-center text-white">
           <span className="ml-3 text-xl">CraterMaik</span>
         </a>
-        <p className="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">© 2021 —
+        <p className="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">© {new Date().getFullYear()} —
           <a href="https://twitter.com/cratermaik" className="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">@cratermaik</a>
         </p>
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
