@@ -42,7 +42,7 @@ export default function ContactSections() {
 
   const submitForm  = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    if(!data.name || !data.email || !data.message) return alert('Agrege sus datos para poder contactarme.');
+    if(!data.name || !data.email || !data.message) return alert('Add your information to be able to contact.');
 
      if (!loading) {
       
