@@ -1,21 +1,31 @@
-import LayoutMain from './component/layout/Main';
-import Hero from './component/sections/Hero';
-import ProjectMain from './component/sections/ProjectMain';
-import Projects from './component/sections/Projects';
-import Skills from './component/sections/Skills';
-import Contact from './component/sections/Contact';
-import Footer from './component/sections/Footer';
+import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
+
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
+
+const pageRoutes = [
+  { path: "/", component: Home, exact: true },
+  { path: "/projects", component: Projects, exact: true },
+]
 
 function App() {
   return (
-    <LayoutMain>
-      <Hero />
-      <ProjectMain />
-      <Projects />
-      <Skills />
-      <Contact />
-      <Footer />
-    </LayoutMain>
+    <Router>
+      <Switch>
+        {pageRoutes.map((route, key) => {
+            return (
+              <Route 
+                exact={route.exact}
+                path={route.path}
+                component={route.component}
+                key={key}
+              />
+            );
+          })
+        }
+        <Redirect to="/" />
+      </Switch>
+    </Router>
   );
 }
 

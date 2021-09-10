@@ -1,4 +1,5 @@
 import React, { useState, ChangeEvent, FormEvent, useEffect } from 'react';
+import { CheckIcon  } from '@heroicons/react/outline';
 import axios from "axios";
 require('dotenv').config();
 
@@ -18,6 +19,7 @@ export default function ContactSections() {
     message: ''
   });
   const [loading, setLoading] = useState(false);
+  const [success, setSuccess] = useState(false);
   const timer = React.useRef(0);
 
   useEffect(() => {
@@ -47,8 +49,8 @@ export default function ContactSections() {
       setLoading(true);
       
        timer.current = window.setTimeout(async () => {
-         
          setLoading(false);
+         setSuccess(true);
          await axios.post(configValue, {
            username: 'Email',
            embeds: [{
@@ -63,10 +65,9 @@ export default function ContactSections() {
            message: ''
          })
    
-       }, 4000);
+       }, 3000);
 
      }
-
 
   }
 
@@ -94,8 +95,9 @@ export default function ContactSections() {
               </div>
 
              <button type="submit" className="text-white w-full bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+               {!success && !loading && 'Send'}
                {loading && 'Sending ...'}
-               {!loading && 'Send'}
+               {success && <CheckIcon className="h-6 w-6 text-green-500 m-auto" aria-hidden="true"/>}
               </button>
               
             </form>
