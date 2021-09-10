@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import DiscordIcon from 'simple-icons/icons/discord';
 import GithubIcon from 'simple-icons/icons/github';
 import InstagramIcon from 'simple-icons/icons/instagram';
@@ -55,18 +57,18 @@ export default function Hero() {
           </div>
           <div>
             <div className="mt-10">
-              <a
-                href="/contact"
+              <Link
+                to="/contact"
                 className="inline-block text-center bg-gradient-to-r from-green-400 to-blue-500 rounded-md py-3 px-8 font-medium text-white hover:from-blue-400 hover:to-green-400"
               >
                 Contact
-              </a>
-              <a
-                href="/projects"
+              </Link>
+              <Link
+                to="/projects"
                 className="inline-block text-center ml-2 bg-pink-500 rounded-md py-3 px-8 font-medium text-white hover:bg-pink-700"
               >
                 Projects
-              </a>
+              </Link>
               <div className="absolute xl:w-1/2 lg:w-1/2 xl:top-24 lg:top-24 inset-y-0 right-12">
                 <img
                   className="hidden lg:block"
