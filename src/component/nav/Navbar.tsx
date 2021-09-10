@@ -33,12 +33,12 @@ export default function NavBar() {
                   <img
                     className="block lg:hidden h-8 w-auto"
                     src="https://i.imgur.com/kU6Y9Ac.png"
-                    alt="Workflow"
+                    alt="cratermaik"
                   />
                   <img
                     className="hidden lg:block h-8 w-auto"
                     src="https://i.imgur.com/kU6Y9Ac.png"
-                    alt="Workflow"
+                    alt="cratermaik"
                   />
                 </div>
                 <div className="hidden sm:block sm:ml-6">
