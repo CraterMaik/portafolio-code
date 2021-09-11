@@ -16,7 +16,7 @@ export default function ProjectFullSections() {
                     <div className="bg-white w-1 h-1 rounded-full"></div>
                     <div>REACTJS</div>
                   </div>
-                  <div className="flex items-center space-x-1 text-sm font-medium px-2 bg-green-500 text-white rounded-full">
+                  <div className="flex items-center lg:hidden space-x-1 text-sm font-medium px-2 bg-green-500 text-white rounded-full">
                     <div className="bg-white w-1 h-1 rounded-full"></div>
                     <div>API LARAVEL</div>
                   </div>
@@ -51,7 +51,7 @@ export default function ProjectFullSections() {
                     <div className="bg-white w-1 h-1 rounded-full"></div>
                     <div>MySQL</div>
                   </div>
-                  <div className="flex items-center space-x-1 text-sm font-medium px-2 bg-green-500 text-white rounded-full">
+                  <div className="flex lg:hidden items-center space-x-1 text-sm font-medium px-2 bg-green-500 text-white rounded-full">
                     <div className="bg-white w-1 h-1 rounded-full"></div>
                     <div>NGINX</div>
                   </div>
@@ -82,7 +82,7 @@ export default function ProjectFullSections() {
                     <div className="bg-white w-1 h-1 rounded-full"></div>
                     <div>SOCKET.IO</div>
                   </div>
-                  <div className="hidden md:flex items-center space-x-1 text-sm font-medium px-2 bg-green-500 text-white rounded-full">
+                  <div className="hidden md:flex lg:hidden items-center space-x-1 text-sm font-medium px-2 bg-green-500 text-white rounded-full">
                     <div className="bg-white w-1 h-1 rounded-full"></div>
                     <div>Discord API</div>
                   </div>
@@ -113,7 +113,7 @@ export default function ProjectFullSections() {
                     <div className="bg-white w-1 h-1 rounded-full"></div>
                     <div>BULMACSS</div>
                   </div>
-                  <div className="hidden md:flex items-center space-x-1 text-sm font-medium px-2 bg-green-500 text-white rounded-full">
+                  <div className="hidden lg:hidden md:flex items-center space-x-1 text-sm font-medium px-2 bg-green-500 text-white rounded-full">
                     <div className="bg-white w-1 h-1 rounded-full"></div>
                     <div>Discord API</div>
                   </div>
@@ -144,7 +144,7 @@ export default function ProjectFullSections() {
                     <div className="bg-white w-1 h-1 rounded-full"></div>
                     <div>MySQL</div>
                   </div>
-                  <div className="hidden md:flex items-center space-x-1 text-sm font-medium px-2 bg-green-500 text-white rounded-full">
+                  <div className="hidden md:flex lg:hidden items-center space-x-1 text-sm font-medium px-2 bg-green-500 text-white rounded-full">
                     <div className="bg-white w-1 h-1 rounded-full"></div>
                     <div>Discord API</div>
                   </div>
@@ -175,7 +175,7 @@ export default function ProjectFullSections() {
                     <div className="bg-white w-1 h-1 rounded-full"></div>
                     <div>JQuery</div>
                   </div>
-                  <div className="hidden md:flex items-center space-x-1 text-sm font-medium px-2 bg-green-500 text-white rounded-full">
+                  <div className="hidden md:flex lg:hidden items-center space-x-1 text-sm font-medium px-2 bg-green-500 text-white rounded-full">
                     <div className="bg-white w-1 h-1 rounded-full"></div>
                     <div>Materialize CSS</div>
                   </div>
@@ -206,7 +206,7 @@ export default function ProjectFullSections() {
                     <div className="bg-white w-1 h-1 rounded-full"></div>
                     <div>EXPRESS</div>
                   </div>
-                  <div className="hidden md:flex items-center space-x-1 text-sm font-medium px-2 bg-green-500 text-white rounded-full">
+                  <div className="hidden md:flex lg:hidden items-center space-x-1 text-sm font-medium px-2 bg-green-500 text-white rounded-full">
                     <div className="bg-white w-1 h-1 rounded-full"></div>
                     <div>BOOTSTRAP</div>
                   </div>
@@ -233,7 +233,7 @@ export default function ProjectFullSections() {
                     <div className="bg-white w-1 h-1 rounded-full"></div>
                     <div>NODEJS</div>
                   </div>
-                  <div className="hidden md:flex items-center space-x-1 text-sm font-medium px-2 bg-green-500 text-white rounded-full">
+                  <div className="hidden md:flex lg:hidden items-center space-x-1 text-sm font-medium px-2 bg-green-500 text-white rounded-full">
                     <div className="bg-white w-1 h-1 rounded-full"></div>
                     <div>EXPRESS</div>
                   </div>
@@ -264,7 +264,7 @@ export default function ProjectFullSections() {
                     <div className="bg-white w-1 h-1 rounded-full"></div>
                     <div>NODEJS</div>
                   </div>
-                  <div className="hidden md:flex items-center space-x-1 text-sm font-medium px-2 bg-green-500 text-white rounded-full">
+                  <div className="hidden lg:hidden md:flex items-center space-x-1 text-sm font-medium px-2 bg-green-500 text-white rounded-full">
                     <div className="bg-white w-1 h-1 rounded-full"></div>
                     <div>EXPRESS</div>
                   </div>
@@ -295,7 +295,7 @@ export default function ProjectFullSections() {
                     <div className="bg-white w-1 h-1 rounded-full"></div>
                     <div>NODEJS</div>
                   </div>
-                  <div className="hidden md:flex items-center space-x-1 text-sm font-medium px-2 bg-green-500 text-white rounded-full">
+                  <div className="hidden md:flex lg:hidden items-center space-x-1 text-sm font-medium px-2 bg-green-500 text-white rounded-full">
                     <div className="bg-white w-1 h-1 rounded-full"></div>
                     <div>JIMP</div>
                   </div>
