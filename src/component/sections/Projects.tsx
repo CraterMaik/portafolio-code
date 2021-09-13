@@ -254,6 +254,7 @@ export default function ProjectSections() {
               </div>
            </div>
          </div>
+         
          <div className="flex mx-auto my-4">
             <Link
              to={'/projects'}

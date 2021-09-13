@@ -314,8 +314,6 @@ export default function ProjectFullSections() {
               </div>
            </div>
          </div>
-         
-        
 
        </div>
      </div>
